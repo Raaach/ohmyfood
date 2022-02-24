@@ -1,5 +1,22 @@
 {
+  "name": "ohmyfood-p-trois",
+  "version": "1.0.0",
+  "description": "Projet trois OpenClassRooms, sur ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raaach/ohmyfood.git"
+  },
+  "author": "MARIR Rachid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raaach/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/Raaach/ohmyfood#readme",
   "devDependencies": {
-    "sass": "^1.48.0"
+    "sass": "^1.49.8"
   }
 }
