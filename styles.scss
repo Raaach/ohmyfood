@@ -1,7 +1,7 @@
-@import "./sass/base.scss";
-@import "./sass/layout/header.scss";
-@import "./sass/layout/city.scss";
-@import "./sass/layout/explore.scss";
-@import "./sass/layout/tuto.scss";
-@import"./sass/utilitaire/box-shadow.scss";
-@import"./sass/utilitaire/zoom.scss";
+@use "./sass/base.scss";
+@use "./sass/layout/header.scss";
+@use "./sass/layout/city.scss";
+@use "./sass/layout/explore.scss";
+@use "./sass/layout/tuto.scss";
+@use "./sass/utils/box-shadow.scss";
+@use "./sass/utils/zoom.scss";

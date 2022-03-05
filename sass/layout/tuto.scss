@@ -1,10 +1,11 @@
-@import "../utilitaire/zoom.scss";
+@use "../utils/zoom.scss";
+@use"../utils/box-shadow";
 .tuto {
     & ol {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
-        @media (max-width: 767px){
+        @media (max-width: 800px){
             flex-direction: columns;
         }
     }
@@ -14,9 +15,9 @@
         border: 1px solid red;
         flex-grow: 1;
         border-radius: 1rem;
-        @include base-shadow;
+        @include box-shadow.base-shadow;
         &:hover{
-         @include zoom;
+         @include zoom.zoom;
         }
     }
 }

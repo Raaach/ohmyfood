@@ -89,7 +89,7 @@ header {
   gap: 1rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   .tuto ol {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -108,5 +108,10 @@ header {
   border-radius: 1rem;
   -webkit-box-shadow: 2px 1px 10px -3px #000000;
           box-shadow: 2px 1px 10px -3px #000000;
+}
+
+.tuto li:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 /*# sourceMappingURL=styles.css.map */
